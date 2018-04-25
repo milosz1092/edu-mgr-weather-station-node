@@ -1,0 +1,17 @@
+{
+  "name": "edu-mgr-ws-dbupd-node",
+  "version": "1.0.0",
+  "description": "Script for weather station database update.",
+  "scripts": {
+    "start": "concurrently --kill-others \"tsc -w\" \"nodemon bin/index.js\""
+  },
+  "author": "Miłosz Szewczyk",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "4.13.7",
+    "raspi-sensors": "^0.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.8"
+  }
+}
